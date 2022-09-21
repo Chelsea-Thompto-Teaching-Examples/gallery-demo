@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Gallery Demo - With Text</title>
+  <link rel="stylesheet" href="./../style.css">
+</head>
+
+<body>
+  <div class="top-matter">
+    <h1>Flexbox Image Gallery Demo</h1>
+    <nav>
+      <a href="../">Home</a>
+      <a href="./">With Text</a>
+      <a href="../with-different-sizes">With Different Sizes</a>
+    </nav>
+  </div>
+
+  <div class="desc">
+    <h2>Overview</h2>
+    <p>This demo shows how to use flexbox to create a responsive gallery of images with text below each image. The example below uses 2
+      types of divs:</p>
+    <ul>
+      <li>One container div that holds all the gallery items. This div will be styled (using style.css) using it's own class and contain rules for the flexbox in general.</li>
+      <li>A container for each gallery item. These will all use the same class and the style (created using style.css) contains rules for how individual elements should be displayed within the parent flexbox.</li>
+    </ul>
+    <p>Some other notes on the design:</p>
+    <ul>
+      <li>A border is used on the container div to show the boundaries of the container.</li>
+      <li>Spacing for each element is controlled using padding and margin rules.</li>
+      <li>Images grow slightly to when cursor is over top using the <code>transform: scale() </code> and <code>img:hover</code> rules.</li>
+    </ul>
+  </div>
+  <div class="gallery-container-a">
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+      <p>Test Text Mack</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+      <p>Test Text Rox</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+      <p>Test Text Mack</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+      <p>Test Text Rox</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+      <p>Test Text Mack</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+      <p>Test Text Rox</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+      <p>Test Text Mack</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+      <p>Test Text Rox</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+      <p>Test Text Mack</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+      <p>Test Text Rox</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+      <p>Test Text Mack</p>
+    </div>
+    <div class="gallery-item-a">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+      <p>Test Text Rox</p>
+    </div>
+  </div>
+</body>

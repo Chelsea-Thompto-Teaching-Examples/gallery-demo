@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color: lime;
+}
+
+
+.top-matter {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.top-matter a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.desc {
+  max-width: 800px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 50px;
+}
+
+.gallery-container-a {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  border: 1px dashed lime;
+}
+
+.gallery-item-a {
+  padding: 10px;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+.gallery-container-a img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.gallery-container-size {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px;
+  border: 1px dashed lime;
+  background-color: #0F380F;
+}
+
+.gallery-container-size img:hover {
+	opacity: 0.8;
+}
+
+.gallery-item-big {
+  padding: 0px;
+  text-align: center;
+  flex: 50%;
+}
+
+.gallery-item-small {
+  padding: 0px;
+  text-align: center;
+  flex: 33% 10% auto;
+}

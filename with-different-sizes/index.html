@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Gallery Demo - Different Sizes</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <div class="top-matter">
+    <h1>Flexbox Image Gallery Demo</h1>
+    <nav>
+      <a href="../">Home</a>
+      <a href="../with-text">With Text</a>
+      <a href="./">With Different Sizes</a>
+    </nav>
+  </div>
+  <div class="desc">
+    <h2>Overview</h2>
+    <p>This demo shows how to use flexbox to create a responsive gallery of different size images. The example below uses 1 type of div and 2 tpes of photos:</p>
+    <ul>
+      <li>One class used to style a container div that holds all the gallery items. This div will be styled (using style.css) using it's own class and contain rules for the flexbox in general.</li>
+      <li>Two classes used to delineate large and small images. Each class has it's own flex rules that cause the size differences.</li>
+    </ul>
+    <p>Some other notes on the design:</p>
+    <ul>
+      <li>A border and background color are used on the container div to show the boundaries of the container.</li>
+      <li>Sizing for each element is controlled using <code>flex:</code> rules.</li>
+      <li>Images darken slightly to when cursor is over top using the <code>opacity</code> and <code>img:hover</code> rules.</li>
+    </ul>
+  </div>
+  <div class="gallery-container-size">
+    <img class="gallery-item-big" src="./../assets/dither_it_mack.jpg" alt="">
+    <img class="gallery-item-big" src="./../assets/dither_it_rox.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_mack.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_rox.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_mack.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_rox.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_mack.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_rox.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_mack.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_rox.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_mack.jpg" alt="">
+    <img class="gallery-item-small" src="./../assets/dither_it_rox.jpg" alt="">
+  </div>
+</body>
