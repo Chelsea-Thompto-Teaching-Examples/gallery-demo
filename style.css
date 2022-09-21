@@ -30,7 +30,7 @@ a {
   padding-bottom: 50px;
 }
 
-.gallery-container-a {
+.gallery-container-a,.gallery-container-b {
   margin: auto;
   max-width: 1000px;
   display: flex;
@@ -49,6 +49,11 @@ a {
 .gallery-container-a img:hover {
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
+}
+
+.gallery-container-b img:hover {
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
 }
 
 .gallery-container-size {
