@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Gallery Demo - Home Page</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <div class="top-matter">
+    <h1>Grid Image Gallery Demo</h1>
+    <nav>
+      <a href="../">Home</a>
+      <a href="../with-text">With Text</a>
+      <a href="../with-different-sizes">With Different Sizes</a>
+      <a href="./">With Grid</a>
+    </nav>
+  </div>
+  <div class="desc">
+    <h2>Overview</h2>
+    <p>This demo shows how to use CSS grid to create a responsive gallery of images. MDN has a good guide on grid which can be found <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids">HERE</a>. The example below uses 2
+      types of divs:</p>
+    <ul>
+      <li>One container div that holds all the gallery items. This div will be styled (using style.css) using it's own class and contain rules for the grid in general.</li>
+      <li>A container for each gallery item. These will all use the same class and the style (created using style.css) contains any rules for how individual elements should be displayed within the parent grid.</li>
+    </ul>
+    <p>Some other notes on the design:</p>
+    <ul>
+      <li>A border is used on the container div to show the boundaries of the container.</li>
+      <li>Spacing for each element is controlled using <code>padding</code>, <code>grid-column-gap</code>, and <code>grid-row-gap</code> rules.</li>
+      <li>Images shrink slightly to when cursor is over top using the <code>transform: scale() </code> and <code>img:hover</code> rules.</li>
+      <li>Each of these images could be a link by housing it inside an <code>a</code> tag.
+      </li>
+    </ul>
+  </div>
+  <div class="gallery-container-g">
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_mack.jpg" alt="">
+    </div>
+    <div class="gallery-item-g">
+      <img src="./../assets/dither_it_rox.jpg" alt="">
+    </div>
+  </div>
+</body>
